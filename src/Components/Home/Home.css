@@ -1,0 +1,30 @@
+.homeImg {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.homeRow {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* .scrollY{
+      width: 100%;
+} */
+.scrollY {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.scrollY::-webkit-scrollbar {
+  display: none;
+}

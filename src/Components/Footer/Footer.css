@@ -1,0 +1,52 @@
+.footer {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 13px;
+  background-color: #232f3e;
+}
+.footerBackToTop {
+  background-color: #37475a;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footerBackToTop:hover {
+  cursor: pointer;
+  background-color: #3368a9;
+}
+
+.footerVerticalRow {
+  display: table;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+.footerVerticalCol {
+  display: table-cell;
+  line-height: 19px;
+  padding: 0 10px;
+}
+.footerVerticalColHead {
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+  font-weight: 800;
+}
+.footerVerticalCol > ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.footerVerticalCol > ul > li {
+  cursor: pointer;
+  list-style-type: none;
+}
+.footerLine {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+.footerMessage {
+  align-items: center;
+  font-size: 130%;
+  display: flex;
+}
