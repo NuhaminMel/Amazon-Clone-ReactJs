@@ -13,8 +13,10 @@ import "firebase/compat/firestore";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const apiKey = process.env.REACT_APP_AMAZON_API_KEY
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAf9J1XFHsVKV75YqKAoGBZvpRNLTNpx7Y",
+  apiKey: {apiKey},
   authDomain: "clone-16084.firebaseapp.com",
   projectId: "clone-16084",
   storageBucket: "clone-16084.appspot.com",
